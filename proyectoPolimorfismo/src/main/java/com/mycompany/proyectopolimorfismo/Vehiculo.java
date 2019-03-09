@@ -9,16 +9,21 @@ package com.mycompany.proyectopolimorfismo;
  *
  * @author CamiloAlvarez
  */
+
 public class Vehiculo {
     
     private String Marca;
+
+    public Vehiculo() {
+   
+       }
 
     public Vehiculo(String Marca) {
         this.Marca = Marca;
     }
     
     public void funcionVehiculo(){
-    
+         String ms = "Soy un Vehiculo";
         
 }
 

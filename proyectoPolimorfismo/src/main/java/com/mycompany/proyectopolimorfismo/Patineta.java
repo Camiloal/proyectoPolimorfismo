@@ -16,8 +16,14 @@ public class Patineta extends Vehiculo{
         super(Marca);
         this.logitudTabla = logitudTabla;
     } 
-    public void funcionPatineta(){
+    
+    @Override
+     public void funcionVehiculo(){
+         String ms = "Soy una Patineta";
         
+    }
+    public void funcionPatineta(){
+      String ms = "Soy Deporte y Cultura";   
     }
     public double getLogitudTabla() {
         return logitudTabla;

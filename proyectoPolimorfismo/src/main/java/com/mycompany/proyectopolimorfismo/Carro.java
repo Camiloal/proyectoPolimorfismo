@@ -18,6 +18,10 @@ public class Carro extends PoweredVehiculo{
         this.tamanoMotor = tamanoMotor;
     }
 
+    @Override
+        public void funcionPowered(){
+        String ms="Soy un Carro Motorizado";
+    }
     
 
     public String getTipoMotor() {

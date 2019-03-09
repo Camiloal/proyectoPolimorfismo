@@ -18,7 +18,10 @@ public class Jet extends PoweredVehiculo{
         this.recuentoMoto = recuentoMoto;
     }
 
-   
+       @Override
+        public void funcionPowered(){
+        String ms="Soy un Jet Motorizado";
+    }
 
     public String getRecuentoMoto() {
         return recuentoMoto;

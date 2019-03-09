@@ -19,7 +19,7 @@ public class PoweredVehiculo extends Vehiculo{
     }
 
     public void funcionPowered(){
-        
+        String ms="Soy un Motorizado";
     }
 
     public String gettCombustible() {
