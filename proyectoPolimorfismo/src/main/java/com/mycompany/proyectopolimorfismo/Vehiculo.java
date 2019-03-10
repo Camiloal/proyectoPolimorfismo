@@ -10,7 +10,7 @@ package com.mycompany.proyectopolimorfismo;
  * @author CamiloAlvarez
  */
 
-public class Vehiculo {
+public abstract class  Vehiculo {
     
     private String Marca;
 
@@ -22,9 +22,9 @@ public class Vehiculo {
         this.Marca = Marca;
     }
     
-    public void funcionVehiculo(){
+    public String funcionVehiculo(){
          String ms = "Soy un Vehiculo";
-        
+        return ms;
 }
 
     public String getMarca() {

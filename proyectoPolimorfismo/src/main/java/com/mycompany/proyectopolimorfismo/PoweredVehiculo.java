@@ -9,7 +9,7 @@ package com.mycompany.proyectopolimorfismo;
  *
  * @author CamiloAlvarez
  */
-public class PoweredVehiculo extends Vehiculo{
+public abstract class PoweredVehiculo extends Vehiculo{
     
     private String tCombustible;
 

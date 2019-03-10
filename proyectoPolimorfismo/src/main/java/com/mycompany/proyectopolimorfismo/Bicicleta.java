@@ -17,14 +17,18 @@ public class Bicicleta extends Vehiculo{
         this.tipoEquipo = tipoEquipo;
     }
 
-    @Override
-    public void funcionVehiculo(){
-       String ms = "Soy una Bibicleta  Marca";
-        
+    public Bicicleta() {
     }
 
-    public void funcionBicicleta(){
-        System.out.println("No contamino, Cuido el planeta");
+    @Override
+    public String funcionVehiculo(){
+       String ms = "Soy una Bibicleta";
+        return ms;
+    }
+
+    public String funcionBicicleta(){
+        String ms="No contamino, Cuido el planeta";
+        return ms;
     }
     public String getTipoEquipo() {
         return tipoEquipo;

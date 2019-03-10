@@ -10,26 +10,27 @@ package com.mycompany.proyectopolimorfismo;
  * @author CamiloAlvarez
  */
 public class Patineta extends Vehiculo{
-    private double logitudTabla;
+    private String logitudTabla;
 
-    public Patineta(double logitudTabla, String Marca) {
+    public Patineta(String logitudTabla, String Marca) {
         super(Marca);
         this.logitudTabla = logitudTabla;
     } 
     
     @Override
-     public void funcionVehiculo(){
+     public String funcionVehiculo(){
          String ms = "Soy una Patineta";
-        
+        return ms;
     }
-    public void funcionPatineta(){
-      String ms = "Soy Deporte y Cultura";   
+    public String funcionPatineta(){
+      String ms = "Soy Deporte y Cultura";
+      return ms;
     }
-    public double getLogitudTabla() {
+    public String getLogitudTabla() {
         return logitudTabla;
     }
 
-    public void setLogitudTabla(double logitudTabla) {
+    public void setLogitudTabla(String logitudTabla) {
         this.logitudTabla = logitudTabla;
     }
     

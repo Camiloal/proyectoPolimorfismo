@@ -13,7 +13,7 @@ public class Inicio {
     
     public static void main(String[] args) {
         
-        Vista vista = new Vista();
-        vista.setVisible(true);
+        Inventario vista = new Inventario();
+        vista.cargarDatos();
     }
 }
