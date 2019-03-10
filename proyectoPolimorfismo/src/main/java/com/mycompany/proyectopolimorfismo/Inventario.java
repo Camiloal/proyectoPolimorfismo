@@ -95,6 +95,16 @@ public class Inventario {
         Vehiculo pat1 = new  Patineta("60cm", "Skate Zero");
         Vehiculo pat2 = new  Patineta("40cm", "Powell");
         Vehiculo pat3 = new  Patineta("50cm", "Element");
+        
+        Vehiculo car1 = new Carro("Grande", "Gasolina","Mazda");
+        Vehiculo car2 = new Carro("Mediano", "Disel","Renault");
+        Vehiculo car3 = new Carro("Pequeño", "Gas","Chevrolet");
+       
+        Vehiculo jet1 = new  Jet("Grande", "Gasolina","Renault");
+        Vehiculo jet2 = new  Jet("Mediano", "Disel","Renault");
+        Vehiculo jet3 = new  Jet("Pequeño", "Gas","Chevrolet");
+
+        
 
         
 
