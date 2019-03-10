@@ -23,6 +23,10 @@ public class Jet extends PoweredVehiculo{
         String ms="Soy un Jet Motorizado";
         return ms;
     }
+        public String funcionJet(){
+        String ms="Te acerco a lo que mas quieres";
+        return ms;
+    }
 
     public String getRecuentoMoto() {
         return recuentoMoto;

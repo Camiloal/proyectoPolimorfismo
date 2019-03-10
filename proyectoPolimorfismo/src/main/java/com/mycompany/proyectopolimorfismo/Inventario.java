@@ -47,6 +47,7 @@ public class Inventario {
                 
                 System.out.println(((Carro)vehiculo).funcionVehiculo());
                 System.out.println(((Carro)vehiculo).funcionPowered());
+                System.out.println(((Carro)vehiculo).funcionCarro());
                 
                 System.out.println("Tamaño Motor: "+((Carro)vehiculo).getTipoMotor()+"  Tipo de gasolina: "+((Carro)vehiculo).gettCombustible()+"   Marca: "+((Carro)vehiculo).getMarca());
                 
@@ -56,6 +57,7 @@ public class Inventario {
                 
                 System.out.println(((Jet)vehiculo).funcionVehiculo());
                 System.out.println(((Jet)vehiculo).funcionPowered());
+                System.out.println(((Jet)vehiculo).funcionJet());
                 
                 System.out.println("Motor: "+((Jet)vehiculo).getRecuentoMoto()+"  Tipo de gasolina: "+((Jet)vehiculo).gettCombustible()+"   Marca: "+((Jet)vehiculo).getMarca());
                 
@@ -108,6 +110,7 @@ public class Inventario {
                   if(vehiculo instanceof Carro){
                     System.out.println(((Carro)vehiculo).funcionVehiculo());
                     System.out.println(((Carro)vehiculo).funcionPowered());
+                    System.out.println(((Carro)vehiculo).funcionCarro());
                     System.out.println("Tamaño Motor: "+((Carro)vehiculo).getTipoMotor()+"  Tipo de gasolina: "+((Carro)vehiculo).gettCombustible()+"   Marca:  "+((Carro)vehiculo).getMarca());
                 }
              
@@ -121,6 +124,7 @@ public class Inventario {
                   if(vehiculo instanceof Jet){
                     System.out.println(((Jet)vehiculo).funcionVehiculo());
                     System.out.println(((Jet)vehiculo).funcionPowered());
+                    System.out.println(((Jet)vehiculo).funcionJet());
                     System.out.println("Motor: "+((Jet)vehiculo).getRecuentoMoto()+"  Tipo de gasolina: "+((Jet)vehiculo).gettCombustible()+"   Marca:  "+((Jet)vehiculo).getMarca());
 
                 }

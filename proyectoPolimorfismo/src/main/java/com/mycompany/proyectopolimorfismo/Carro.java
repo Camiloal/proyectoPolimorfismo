@@ -23,7 +23,10 @@ public class Carro extends PoweredVehiculo{
         String ms="Soy un Carro Motorizado";
         return ms;
     }
-    
+        public String funcionCarro(){
+        String ms="Contamino, mejor usa bici";
+        return ms;
+    }
 
     public String getTipoMotor() {
         return tamanoMotor;
