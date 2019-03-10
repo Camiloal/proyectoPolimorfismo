@@ -18,8 +18,9 @@ public abstract class PoweredVehiculo extends Vehiculo{
         this.tCombustible = tCombustible;
     }
 
-    public void funcionPowered(){
+    public String funcionPowered(){
         String ms="Soy un Motorizado";
+        return ms;
     }
 
     public String gettCombustible() {

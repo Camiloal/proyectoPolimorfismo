@@ -19,8 +19,9 @@ public class Carro extends PoweredVehiculo{
     }
 
     @Override
-        public void funcionPowered(){
+        public String funcionPowered(){
         String ms="Soy un Carro Motorizado";
+        return ms;
     }
     
 

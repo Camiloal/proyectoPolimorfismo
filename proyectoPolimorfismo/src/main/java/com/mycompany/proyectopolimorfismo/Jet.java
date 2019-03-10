@@ -19,8 +19,9 @@ public class Jet extends PoweredVehiculo{
     }
 
        @Override
-        public void funcionPowered(){
+        public String funcionPowered(){
         String ms="Soy un Jet Motorizado";
+        return ms;
     }
 
     public String getRecuentoMoto() {
